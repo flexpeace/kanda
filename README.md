@@ -1,5 +1,4 @@
 # This is a quick excercise for Kanda. 
-cd to the root folder `kanda` and run below scripts 
 
 # SETUP
 1. install virtualenv by running `pip install virtualenv`
@@ -9,8 +8,8 @@ cd to the root folder `kanda` and run below scripts
 5. run `pip install -r requirements.txt` and `pip install -r tests-requirements.txt`
 6. Run tests or server using commands below
 
-## RUNNING TESTS
+# RUNNING TESTS
 `pytest tests`
 
-## RUNNING SERVER
+# RUNNING SERVER
 `gunicorn --reload main:app`
